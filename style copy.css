@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Raleway", sans-serif;
+
+}
+.MainContainer{
+    height: 100vh;
+    width: 100vw;
+    padding: 0 13rem;
+    /*border: 2px solid #e11c1c;*/
+}
+header{
+    height: 11%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 11.4%;
+}
+#logoImage{
+    width: 100%;
+}
+
+.searchBarAndLocation{
+    width:63%;
+    margin-left: 1.5rem;
+    padding: 0.6rem;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    
+}
+select{
+    width: 30%;
+    padding: 0.5rem;
+    border: none;
+}
+#searchItems{
+    width: 60%;
+    padding: 0.3rem;
+    border: none;
+    border-left: 1px solid lightgray;
+    outline: none;
+}
+.loginAndSignup{
+    width: 23%;
+    display: flex;
+    justify-content: end;
+    gap: 2.5rem;
+    padding-right: 1.3rem;
+}
+.link-1{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.NavTabContainer{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e11c1c;
+}
+.tab{
+    border: 1px solid #e11c1c;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.Link-2{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}

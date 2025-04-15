@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Raleway", sans-serif;
+
+}
+.MainContainer{
+    height: 100vh;
+    width: 100vw;
+    /*border: 2px solid #e11c1c;*/
+}
+header{
+    height: 11%;
+    display: flex;
+    align-items: center;
+    padding: 0 13rem;
+}
+
+.logo{
+    width: 11.4%;
+}
+#logoImage{
+    width: 100%;
+}
+
+.searchBarAndLocation{
+    width:63%;
+    margin-left: 1.5rem;
+    padding: 0.52rem;
+    border-radius: 6px;
+    box-shadow: rgba(28, 28, 28, 0.221) 0px 1px 8px;
+    display: flex;
+    align-items: center;
+    
+}
+.location-section{
+    width: 35%;
+    padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+    border: none;
+    outline: none;
+    display: flex;
+    position: relative;
+}
+.location-select option {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 5rem;
+  background-color: #fff; /* Default background for options */
+  color: #333;
+}
+.iRDDBk{
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    width: 1.5rem;
+}
+select{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+    
+}
+.search-bar{
+ width: 60%;
+ height: 1.5rem;
+ padding: 0.3rem 0 0.3rem 1rem;
+ display: flex;
+ border-left: 1px solid lightgray;
+ align-items: center;
+}
+.search-bar input::placeholder{
+    font-size: 0.9rem;
+}
+.iwHbVQ{
+    display: inline-block;
+    vertical-align: middle;
+    line-height:1;
+    width: 18px;
+    height: 18px;
+}
+#searchItems{
+    width: 100%;
+    padding-left: 1rem;
+    border: none; 
+    outline: none;
+}
+.loginAndSignup{
+    width: 23%;
+    display: flex;
+    justify-content: end;
+    gap: 2.5rem;
+    padding-right: 1.3rem;
+}
+.link-1{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.NavTabContainer{
+    margin: 1rem 1.5rem 0 1rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 13rem;
+}
+.tab{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.Link-2{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 2rem 2rem 2rem 0.5rem;
+}
+.Img-div{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgba(226, 226, 226, 0.449);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Img{
+    width: 2rem;
+}
+#tab1{
+    border-bottom: 2px solid #EF4F5F;
+}
+#tab1 a{
+    color: #EF4F5F;
+}
+.Dining-div{
+    background-color: rgba(95, 158, 160, 0.3);
+}
+hr {
+  width: 100vw; 
+  height: 2px; 
+  background-color:rgba(211, 211, 211, 0.214); 
+  border: none;
+}
+main{
+    padding: 0 13rem;
+    background-color:rgba(211, 211, 211, 0.214);
+}
+.collectionHeadContainer{
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+.description{
+   display: flex;
+}
+.description p{
+    width: 80%;
+}
+.Link-3-div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.Link-3{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: rgba(255, 0, 0, 0.542);
+}
+.Link-3:hover{
+    color: #EF4F5F
+}
+.card-div{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 2rem;
+}
+.card{
+    width: 24%;
+    height: 20rem;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+    border-radius: 8px;
+}
+.h2-Cards{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+#card1{
+    position: relative;
+}
+#card2{
+    position: relative;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#card3{
+    position: relative;
+}
+#card4{
+    position: relative;
+}
+.places-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  gap: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-family: "Lato";
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}
