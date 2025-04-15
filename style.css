@@ -9,7 +9,6 @@
 .MainContainer{
     height: 100vh;
     width: 100vw;
-    /*border: 2px solid #e11c1c;*/
 }
 header{
     height: 11%;
@@ -47,7 +46,7 @@ header{
   font-size: 0.8rem;
   padding: 0.5rem;
   width: 5rem;
-  background-color: #fff; /* Default background for options */
+  background-color: #fff; 
   color: #333;
 }
 .iRDDBk{
@@ -199,6 +198,9 @@ h2{
     height: 100%;
     object-fit:  cover;
     border-radius: 8px;
+}
+.banner:hover{
+    cursor: pointer;
 }
 .h2-Cards{
     font-size: 1.2rem;
